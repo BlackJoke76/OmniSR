@@ -41,7 +41,7 @@ class Options():
         # args for training
         parser.add_argument('--debug', action='store_true', default=False, help='debug model')
         parser.add_argument('--eval_now', type=int, default=1, help='After how many trainig step to evalute')
-        parser.add_argument('--train_ps', type=int, default=256, help='patch size of training sample')
+        parser.add_argument('--train_ps', type=int, default=512, help='patch size of training sample')
         parser.add_argument('--resume', action='store_true', default=False)
 
         
