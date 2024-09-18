@@ -1,0 +1,6 @@
+[submodule "Depth-Anything-V2"]
+	path = Depth-Anything-V2
+	url = https://github.com/DepthAnything/Depth-Anything-V2.git
+[submodule "dinov2"]
+	path = dinov2
+	url = https://github.com/facebookresearch/dinov2.git
