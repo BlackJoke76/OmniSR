@@ -1,5 +1,5 @@
 # OmniSR 
-This is the official implementation of the paper [OmniSR: Shadow Removal under Direct and Indirect Lighting]().
+This is the official implementation of the paper [OmniSR: Shadow Removal under Direct and Indirect Lighting](https://arxiv.org/pdf/2302.01650.pdf).
 
 <!-- [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/shadowformer-global-context-helps-image/shadow-removal-on-istd)](https://paperswithcode.com/sota/shadow-removal-on-istd?p=shadowformer-global-context-helps-image)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/shadowformer-global-context-helps-image/shadow-removal-on-adjusted-istd)](https://paperswithcode.com/sota/shadow-removal-on-adjusted-istd?p=shadowformer-global-context-helps-image)
@@ -35,7 +35,7 @@ pip install -r requirements.txt
 * INS [[link]](https://1drv.ms/f/c/293105fdd25c43e1/Ehs2NWKPVmFPrnuudfVUM8EBC3DzwOuKTcm_kmmM4h17dg?e=Dqpb7u)
 
 ## Pretrained models
-[ISTD](https://drive.google.com/file/d/1bHbkHxY5D5905BMw2jzvkzgXsFPKzSq4/view?usp=share_link) | [ISTD+](https://drive.google.com/file/d/10pBsJenoWGriZ9kjWOcE4l4Kzg-F1TFd/view?usp=share_link) | [SRD]() |  [INS]() | [WSRD+]()
+[ISTD](https://1drv.ms/u/c/293105fdd25c43e1/EXNcyRJASQ5Ir3po_a-Py0cBPCTPXh-j9x8xP7cIffNENA?e=z4YScV) | [ISTD+](https://1drv.ms/u/c/293105fdd25c43e1/EcW41sXmrZFFjqyTwE84uR0BdrkzGp3hb3vqhmvpnVxWqQ?e=k8ZnI4) | [SRD](https://1drv.ms/u/c/293105fdd25c43e1/EaI4VEPzxC9FjbV1nzn4TOwBOQDuHWW6imXcvJFkPVw2Sg?e=0S0aLy) |   [WSRD+](https://1drv.ms/u/c/293105fdd25c43e1/ESOPejl-4l5HvdxGsopu5oIB8SUGu1o6XquU2SRKEI6Cuw?e=leX3qD) | [INS](https://1drv.ms/u/c/293105fdd25c43e1/ERjBBybbNvZMpiAPJegUt1QBGgNlfoOcjK6W3xRO05GQgw?e=axC80v) 
 
 Please download the corresponding pretrained model and modify the `weights` in `testDDP.py`.
 
@@ -109,7 +109,7 @@ The evauluation results on INS are as follows
 <p align=center><img width="80%" src="doc/res.jpg"/></p>
 
 #### Testing results
-The testing results on dataset ISTD, ISTD+, SRD,  WSRD+ and INS are: [results](https://drive.google.com/file/d/1zcv7KBCIKgk-CGQJCWnM2YAKcSAj8Sc4/view?usp=share_link)
+The testing results on dataset ISTD, ISTD+, SRD,  WSRD+ and INS are: [results](https://1drv.ms/f/c/293105fdd25c43e1/EmzoLrPSZGFDtuzWXkGEUQcBZvBj8jmBvsLdLHHnigsqXQ?e=V1IC2y)
 
 ## References
 Our implementation is based on [ShadowFomrer](https://github.com/GuoLanqing/ShadowFormer). We would like to thank them.
