@@ -112,7 +112,7 @@ The evauluation results on INS are as follows
 The testing results on dataset ISTD, ISTD+, SRD,  WSRD+ and INS are: [results](https://1drv.ms/f/c/293105fdd25c43e1/EmzoLrPSZGFDtuzWXkGEUQcBZvBj8jmBvsLdLHHnigsqXQ?e=V1IC2y)
 
 ## References
-Our implementation is based on [ShadowFomrer](https://github.com/GuoLanqing/ShadowFormer). We would like to thank them.
+Our implementation is based on [ShadowFormer](https://github.com/GuoLanqing/ShadowFormer). We would like to thank them.
 
 <!-- Citation
 -----
