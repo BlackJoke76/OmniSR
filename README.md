@@ -1,5 +1,5 @@
 # OmniSR 
-This is the official implementation of the paper [OmniSR: Shadow Removal under Direct and Indirect Lighting](https://arxiv.org/pdf/2302.01650.pdf).
+This is the official implementation of the paper [OmniSR: Shadow Removal under Direct and Indirect Lighting](https://arxiv.org/abs/2410.01719).
 
 <!-- [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/shadowformer-global-context-helps-image/shadow-removal-on-istd)](https://paperswithcode.com/sota/shadow-removal-on-istd?p=shadowformer-global-context-helps-image)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/shadowformer-global-context-helps-image/shadow-removal-on-adjusted-istd)](https://paperswithcode.com/sota/shadow-removal-on-adjusted-istd?p=shadowformer-global-context-helps-image)
@@ -13,7 +13,7 @@ This is the official implementation of the paper [OmniSR: Shadow Removal under D
 ## Introduction
 To address the challenge of shadow removal in complex indoor scenes, we propose a novel shadow removal network that considers both direct and indirect shadows, often neglected in existing datasets. Our approach leverages a high-quality synthetic dataset that includes both types of shadows, generated via path tracing. By utilizing RGB-D input and integrating semantic and geometric information, our method accurately restores shadow-free images. The network compares intensities within semantically similar regions and reweights features using local attention based on geometric and semantic similarities, without relying on shadow masks.
 
-For more details, please refer to our [original paper]().
+For more details, please refer to our [original paper](https://arxiv.org/abs/2410.01719).
 
 
 <p align=center><img width="80%" src="doc/pipeline.jpg"/></p>
