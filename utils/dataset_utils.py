@@ -14,7 +14,7 @@ class Augment_RGB_torch:
     def transform1(self, torch_tensor):
         H, W = torch_tensor.shape[1], torch_tensor.shape[2]
         train_transform = transforms.Compose([
-        transforms.RandomRotation((self.rotate, self.rotate), interpolation=transforms.InterpolationMode.BILINEAR, expand=False),
+        transforms.RandomRotation(self.rotate, interpolation=transforms.InterpolationMode.BILINEAR, expand=False),
         transforms.Resize((int(H * 1.3), int(W * 1.3)), antialias=True),
         # CenterCrop，if the size is larger than the original size, the excess will be filled with black
         transforms.CenterCrop([H, W])
