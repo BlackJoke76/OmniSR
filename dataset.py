@@ -71,7 +71,7 @@ class DataLoaderTrain(Dataset):
         normal_filename = os.path.split(self.normal_filenames[tar_index])[-1]
 
 
-        augment.rotate = 20
+        augment.rotate = random.randint(-20,20)
         apply_trans = transforms_aug[random.randint(0, 2)]
 
         # [0, 1]
