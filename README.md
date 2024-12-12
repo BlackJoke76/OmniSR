@@ -117,7 +117,7 @@ Our implementation is based on [ShadowFormer](https://github.com/GuoLanqing/Shad
 ## Citation
 Bibtex:
 ```
-@article{xu2024omnisr,
+@inproceedings{xu2024omnisr,
   title={OmniSR: Shadow Removal under Direct and Indirect Lighting},
   author={Xu, Jiamin and Li, Zelong and Zheng, Yuxin and Huang, Chenyu and Gu, Renshu and Xu, Weiwei and Xu, Gang},
   booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
