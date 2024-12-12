@@ -116,7 +116,7 @@ Our implementation is based on [ShadowFormer](https://github.com/GuoLanqing/Shad
 
 ## Citation
 -----
-Preprint available [here]([https://arxiv.org/pdf/2302.01650.pdf](https://arxiv.org/abs/2410.01719)). 
+Preprint available [here](https://arxiv.org/abs/2410.01719). 
 
 In case of use, please cite our publication:
 
