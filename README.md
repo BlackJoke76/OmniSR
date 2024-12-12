@@ -1,4 +1,4 @@
-# OmniSR 
+# OmniSR(AAAI'2025)
 This is the official implementation of the paper [OmniSR: Shadow Removal under Direct and Indirect Lighting](https://arxiv.org/abs/2410.01719).
 
 <!-- [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/shadowformer-global-context-helps-image/shadow-removal-on-istd)](https://paperswithcode.com/sota/shadow-removal-on-istd?p=shadowformer-global-context-helps-image)
@@ -114,23 +114,23 @@ The testing results on dataset ISTD, ISTD+, SRD,  WSRD+ and INS are: [results](h
 ## References
 Our implementation is based on [ShadowFormer](https://github.com/GuoLanqing/ShadowFormer). We would like to thank them.
 
-<!-- Citation
+## Citation
 -----
-Preprint available [here](https://arxiv.org/pdf/2302.01650.pdf). 
+Preprint available [here]([https://arxiv.org/pdf/2302.01650.pdf](https://arxiv.org/abs/2410.01719)). 
 
 In case of use, please cite our publication:
 
-L. Guo, S. Huang, D. Liu, H. Cheng and B. Wen, "ShadowFormer: Global Context Helps Image Shadow Removal," AAAI 2023.
+J. Xu, Z. Li, Y. Zheng, C. Huang , R. Gu and W. Wei "OmniSR: Shadow Removal under Direct and Indirect Lighting," AAAI 2025.
 
 Bibtex:
 ```
-@article{guo2023shadowformer,
-  title={ShadowFormer: Global Context Helps Image Shadow Removal},
-  author={Guo, Lanqing and Huang, Siyu and Liu, Ding and Cheng, Hao and Wen, Bihan},
-  journal={arXiv preprint arXiv:2302.01650},
-  year={2023}
+@article{xu2024omnisr,
+  title={OmniSR: Shadow Removal under Direct and Indirect Lighting},
+  author={Xu, Jiamin and Li, Zelong and Zheng, Yuxin and Huang, Chenyu and Gu, Renshu and Xu, Weiwei and Xu, Gang},
+  journal={arXiv preprint arXiv:2410.01719},
+  year={2024}
 }
-``` -->
+``` 
 
 ## Contact
 If you have any questions, please contact 905233173@qq.com
