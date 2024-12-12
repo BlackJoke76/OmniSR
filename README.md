@@ -115,20 +115,13 @@ The testing results on dataset ISTD, ISTD+, SRD,  WSRD+ and INS are: [results](h
 Our implementation is based on [ShadowFormer](https://github.com/GuoLanqing/ShadowFormer). We would like to thank them.
 
 ## Citation
------
-Preprint available [here](https://arxiv.org/abs/2410.01719). 
-
-In case of use, please cite our publication:
-
-J. Xu, Z. Li, Y. Zheng, C. Huang , R. Gu and W. Wei "OmniSR: Shadow Removal under Direct and Indirect Lighting," AAAI 2025.
-
 Bibtex:
 ```
 @article{xu2024omnisr,
   title={OmniSR: Shadow Removal under Direct and Indirect Lighting},
   author={Xu, Jiamin and Li, Zelong and Zheng, Yuxin and Huang, Chenyu and Gu, Renshu and Xu, Weiwei and Xu, Gang},
-  journal={arXiv preprint arXiv:2410.01719},
-  year={2024}
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  year={2025}
 }
 ``` 
 
