@@ -72,7 +72,7 @@ You can change the count of GPU by change the argument `--nproc_per_node` in `te
         |-- normal # normal map of the original image
 
 ``` 
-2. Run [Depth Anything V2](https://github.com/DepthAnything/Depth-Anything-V2) to generate depth map of the original image and then run `caculate_normal.py` to get normal map
+2. Run [Depth Anything V2](https://github.com/DepthAnything/Depth-Anything-V2) to generate depth map of the original image and then run `calculate_normal.py` to get normal map
 3. Then, download this [weight](https://dl.fbaipublicfiles.com/dinov2/dinov2_vitl14/dinov2_vitl14_pretrain.pth) of [dinov2](https://github.com/facebookresearch/dinov2) and clone the code of [dinov2](https://github.com/facebookresearch/dinov2) into this folder
 4. You need to modify the following terms in `option.py`
 ```python
