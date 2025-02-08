@@ -79,7 +79,7 @@ def process_normal(normal):
     normal = normal / normalizer 
     return normal
 
-save_vis = False
+save_vis = True
 save_normal = True
 padding = False
 folder = "/home/disk2/dataset/albedo"
