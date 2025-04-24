@@ -32,7 +32,7 @@ pip install -r requirements.txt
 * ISTD+ [[link]](https://github.com/cvlab-stonybrook/SID)
 * SRD [[link]](https://github.com/vinthony/ghost-free-shadow-removal)
 * WSRD+ [[link]](https://github.com/movingforward100/Shadow_R)
-* INS [[link]](https://1drv.ms/f/c/293105fdd25c43e1/Ehs2NWKPVmFPrnuudfVUM8EBC3DzwOuKTcm_kmmM4h17dg?e=Dqpb7u)
+* INS [[link]](https://1drv.ms/f/c/293105fdd25c43e1/Ehs2NWKPVmFPrnuudfVUM8EBC3DzwOuKTcm_kmmM4h17dg?e=Dqpb7u) [[Rendering Code]](https://github.com/BlackJoke76/BlenderProc)
 * Real Photo [[link]](https://1drv.ms/u/c/293105fdd25c43e1/Ea3oVBYVNGFPm5R2DSh5-54BvhSpkChYoYyuDjk54vERgw?e=caZWik)
 ## Pretrained models
 [ISTD](https://1drv.ms/u/c/293105fdd25c43e1/EXNcyRJASQ5Ir3po_a-Py0cBPCTPXh-j9x8xP7cIffNENA?e=z4YScV) | [ISTD+](https://1drv.ms/u/c/293105fdd25c43e1/EcW41sXmrZFFjqyTwE84uR0BdrkzGp3hb3vqhmvpnVxWqQ?e=k8ZnI4) | [SRD](https://1drv.ms/u/c/293105fdd25c43e1/EaI4VEPzxC9FjbV1nzn4TOwBOQDuHWW6imXcvJFkPVw2Sg?e=0S0aLy) |   [WSRD+](https://1drv.ms/u/c/293105fdd25c43e1/ESOPejl-4l5HvdxGsopu5oIB8SUGu1o6XquU2SRKEI6Cuw?e=leX3qD) | [INS](https://1drv.ms/u/c/293105fdd25c43e1/ERjBBybbNvZMpiAPJegUt1QBGgNlfoOcjK6W3xRO05GQgw?e=axC80v) 
@@ -72,7 +72,7 @@ You can change the count of GPU by change the argument `--nproc_per_node` in `te
         |-- normal # normal map of the original image
 
 ``` 
-2. Run [Depth Anything V2](https://github.com/DepthAnything/Depth-Anything-V2) to generate depth map of the original image and then run `calculate_normal.py` to get normal map
+2. Run [Depth Anything V2](https://github.com/DepthAnything/Depth-Anything-V2) to generate depth map of the original image and then run `calculate_normal.py` to get normal map.After you download Depth-Anythinh-V2, replace `run.py` with with the `Depth-Anything-V2_run.py` in this repository.
 3. Then, download this [weight](https://dl.fbaipublicfiles.com/dinov2/dinov2_vitl14/dinov2_vitl14_pretrain.pth) of [dinov2](https://github.com/facebookresearch/dinov2) and clone the code of [dinov2](https://github.com/facebookresearch/dinov2) into this folder
 4. You need to modify the following terms in `option.py`
 ```python
